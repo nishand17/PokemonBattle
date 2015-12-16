@@ -1,0 +1,28 @@
+public class Deoxys extends Pokemon {
+	Deoxys() {
+		super(300, 130, 170, 150, 150, 100, "psychic", "flying");
+		moves[0][0] = "Psychic";
+		moves[0][1]	= "75";
+		moves[0][2] = "100";
+		moves[0][3] = "psychic";
+		moves[0][4] = "special";
+
+		moves[1][0] = "Giga Impact";
+		moves[1][1]	= "90";
+		moves[1][2] = "60";
+		moves[1][3] = "fire";
+		moves[1][4] = "physical";
+
+		moves[2][0] = "Psychic Punch";
+		moves[2][1]	= "60";
+		moves[2][2] = "90";
+		moves[2][3] = "psychic";
+		moves[2][4] = "physical";
+
+		moves[3][0] = "High Jump Kick";
+		moves[3][1]	= "120";
+		moves[3][2] = "30";
+		moves[3][3] = "Fighting";
+		moves[3][4] = "physical";
+	}
+}
